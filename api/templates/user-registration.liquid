@@ -1,0 +1,36 @@
+{% layout 'base' %} {% block content %}
+
+<h1>Vérifier votre adresse e-mail</h1>
+
+<p style='padding-bottom: 30px'>
+  Merci de vous être inscrit(e) à <i>{{ projectName }}</i>. 
+  Pour finaliser votre inscription, vous devez vérifier votre adresse e-mail en cliquant sur le lien de vérification ci-dessous. Si vous n'avez pas initié cette inscription, vous pouvez ignorer cet e-mail.
+</p>
+
+<a
+  class='button'
+  rel='noopener'
+  target='_blank'
+  href='{{url}}'
+  style='
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 11px 24px;
+    border-radius: 8px;
+    background: #171717;
+    border: 1px solid #ffffff;
+  '
+>
+  <!--[if mso]>
+    <i style="letter-spacing: 25px; mso-font-width: -100%; mso-text-raise: 30pt"
+      >&nbsp;</i
+    >
+  <![endif]-->
+  <span style='mso-text-raise: 15pt'>Vérifier mon e-mail</span>
+  <!--[if mso]> <i style="letter-spacing: 25px; mso-font-width: -100%">&nbsp;</i> <![endif]-->
+</a>
+
+{% endblock %}

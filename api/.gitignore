@@ -1,0 +1,9 @@
+# Node dependencies
+node_modules
+
+uploads
+
+# Local env files
+.env
+.env.*
+!.env.example
