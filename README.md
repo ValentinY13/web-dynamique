@@ -26,7 +26,7 @@ npm install --global yarn
 git clone https://github.com/ValentinY13/web-dynamique.git
 ```
 
-## 4 Setup Directus
+## 4\. Setup Directus
 
 4.1 Toujours dans le terminal, allez dans le projet cloné ( `cd web-dynamique` ) puis dans le dossier api ( `cd api` ) et effectuez la commande suivante pour installer les dépendances :
 
