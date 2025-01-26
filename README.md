@@ -60,7 +60,7 @@ node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 npx directus start
 ```
 
-Le serveur se lancer sur le port `http://localhost:8055` et connectez vous en tant qu' [admin ou cliente](#identifiant) (voir en dessous).
+Le serveur se lancer sur le port `http://localhost:8055` et connectez vous en tant qu'admin ou cliente (identifiant en dessous).
 
 ## 5\. Setup de Nuxt
 
